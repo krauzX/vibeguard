@@ -1,0 +1,52 @@
+[
+  {
+    "id": "e8f4d48a56ba9a90",
+    "reason": "test fixture",
+    "suppressed_at": "2026-11-05T00:00:00Z"
+  },
+  {
+    "id": "f21c5afab1e57453",
+    "reason": "test fixture",
+    "suppressed_at": "2026-11-05T00:00:00Z"
+  },
+  {
+    "id": "cc84d9356e215066",
+    "reason": "documentation example",
+    "suppressed_at": "2026-11-05T00:00:00Z"
+  },
+  {
+    "id": "24b8c53a0b3c870b",
+    "reason": "test fixture",
+    "suppressed_at": "2026-11-05T00:00:00Z"
+  },
+  {
+    "id": "e3ccc5201e306aea",
+    "reason": "accepted in this repository",
+    "suppressed_at": "2026-11-05T00:00:00Z"
+  },
+  {
+    "id": "f607c8bee8b6031d",
+    "reason": "test fixture",
+    "suppressed_at": "2026-11-05T00:00:00Z"
+  },
+  {
+    "id": "d026722bb3e86314",
+    "reason": "test fixture",
+    "suppressed_at": "2026-11-05T00:00:00Z"
+  },
+  {
+    "id": "3540d50a29118225",
+    "reason": "accepted in this repository",
+    "suppressed_at": "2026-11-05T00:00:00Z"
+  },
+  {
+    "id": "434cf8e7cd920892",
+    "reason": "test fixture",
+    "suppressed_at": "2026-11-05T00:00:00Z"
+  },
+  {
+    "id": "f96e945ed9c18c2a",
+    "reason": "accepted in this repository",
+    "suppressed_at": "2026-11-05T00:00:00Z"
+  }
+]
