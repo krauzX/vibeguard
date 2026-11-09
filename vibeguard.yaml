@@ -1,0 +1,80 @@
+security:
+  fail_on_secrets: true
+  fail_on_critical: true
+  exclude_paths:
+    - .git
+    - node_modules
+    - vendor
+    - .venv
+    - venv
+    - __pycache__
+    - .idea
+    - .vscode
+    - dist
+    - build
+    - .next
+    - .nuxt
+    - target
+    - bin
+    - obj
+  include_extensions:
+    - .go
+    - .py
+    - .js
+    - .ts
+    - .jsx
+    - .tsx
+    - .java
+    - .rb
+    - .php
+    - .sh
+    - .bash
+    - .yaml
+    - .yml
+    - .json
+    - .toml
+    - .env
+    - .sql
+    - .xml
+    - .html
+    - .css
+    - .conf
+    - .cfg
+    - .ini
+    - .properties
+    - .tf
+    - .hcl
+
+dependencies:
+  check_vulnerabilities: true
+  offline: false
+  timeout: 30s
+
+baseline:
+  enabled: true
+  path: .vibeguard-baseline.json
+
+reporting:
+  format: ""
+  output: ""
+  no_color: false
+  quiet: false
+  verbose: false
+
+scanner:
+  workers: 0
+  max_file_size: 10485760
+  skip_binary: true
+  skip_minified: true
+  skip_lockfiles: true
+  respect_gitignore: true
+
+rules:
+  enable_go: true
+  enable_python: true
+  enable_js: true
+  enable_java: true
+  enable_shell: true
+  enable_ruby: true
+  enable_php: true
+  max_line_length: 200
